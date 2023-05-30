@@ -257,19 +257,19 @@ void key()
 	if(!col1)
 	{
 		Lcd_cursor(&lcd,0,1);
-		Lcd_string(&lcd,"key 7\n");
+		Lcd_string(&lcd,"key 4\n");
 		col1=1;
 	}
 	else if(!col2)
 	{
 		Lcd_cursor(&lcd,0,1);
-		Lcd_string(&lcd,"key 8\n");
+		Lcd_string(&lcd,"key 5\n");
 		col2=1;
 	}
 	else if(!col3)
 	{
 		Lcd_cursor(&lcd,0,1);
-		Lcd_string(&lcd,"key 9\n");
+		Lcd_string(&lcd,"key 6\n");
 		col3=1;
 	}
 	else if(!col4)
@@ -293,19 +293,19 @@ void key()
 	if(!col1)
 	{
 		Lcd_cursor(&lcd,0,1);
-		Lcd_string(&lcd,"key 7\n");
+		Lcd_string(&lcd,"key 1\n");
 		col1=1;
 	}
 	else if(!col2)
 	{
 		Lcd_cursor(&lcd,0,1);
-		Lcd_string(&lcd,"key 8\n");
+		Lcd_string(&lcd,"key 2\n");
 		col2=1;
 		}
 	else if(!col3)
 	{
 		Lcd_cursor(&lcd,0,1);
-		Lcd_string(&lcd,"key 9\n");
+		Lcd_string(&lcd,"key 3\n");
 		col3=1;
 	}
 	else if(!col4)
